@@ -1,0 +1,78 @@
+/* google fonts CDN */
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700;900&display=swap');
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    position: relative;
+    width: 65em;
+    height: 50em;
+    margin-top: 30px;
+    margin-left: 25em;
+    background-color: hsl(225, 100%, 94%);
+    background-image: url(/image/pattern-background-desktop.svg);
+    background-position: 40% -10%;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.prevcard{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 25em;
+    height: 40em;
+    box-shadow: 0 1px 50px 0 hsla(245, 75%, 52%, 0.267);
+    border-radius: 10px;
+    background-color: white;
+}
+
+.prevcard img{
+    width: inherit;
+    border-radius: 10px 10px 0 0;
+}
+
+.prevcard h2{
+    text-align: center;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.prevcard p{
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.prevcard .price{
+    margin: auto;
+    width: 80%;
+    height: 80px;
+    border-radius: 10px;
+    background-color: hsl(225, 100%, 98%);
+}
+
+.prevcard button{
+    padding: 15px;
+    width: 22em;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 55px;
+    color: white;
+    border: none;
+    background-color: hsl(245, 75%, 52%);
+    box-shadow: 0 3px 35px hsla(245, 75%, 52%, 0.589);
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+}
