@@ -45,7 +45,7 @@
     font-family: 'Red Hat Display', sans-serif;
 }
 
-.prevcard p{
+.prevcard #text{
     text-align: center;
     font-family: 'Red Hat Display', sans-serif;
     color: hsl(224, 23%, 55%);
@@ -56,11 +56,45 @@
 }
 
 .prevcard .price{
+    position: relative;
     margin: auto;
     width: 80%;
     height: 80px;
     border-radius: 10px;
     background-color: hsl(225, 100%, 98%);
+}
+
+.prevcard .price i{
+    position: absolute;
+    top: 25%;
+    left: 10px;
+    background-color: hsl(225, 100%, 94%);
+    color: hsl(224, 23%, 55%);
+    padding: 15px;
+    border-radius: 30px;
+}
+
+.prevcard .price p{
+    position: absolute;
+    bottom: 1px;
+    left: 55px;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.prevcard .price a{
+    position: absolute;
+    right: 30px;
+    top: 40%;
+    color: hsl(245, 75%, 52%);
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+}
+
+.prevcard .price span{
+    color: hsl(224, 23%, 55%);
+    font-weight: 300;
 }
 
 .prevcard button{
@@ -75,4 +109,18 @@
     box-shadow: 0 3px 35px hsla(245, 75%, 52%, 0.589);
     font-family: 'Red Hat Display', sans-serif;
     font-weight: 500;
+    cursor: pointer;
 }
+
+.prevcard button:hover{
+    background-color: hsla(245, 75%, 52%, 0.753);
+}
+
+.prevcard p{
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    margin-top: 30px;    
+}
+
